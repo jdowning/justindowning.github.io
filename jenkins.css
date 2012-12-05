@@ -1,11 +1,11 @@
 body {
-  background: #aabeca;
-  background: -moz-linear-gradient(top, #aabeca 0%, #ff7900 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aabeca), color-stop(100%, #ff7900));
-  background: -webkit-linear-gradient(top, #aabeca 0%, #ff7900 100%);
-  background: -o-linear-gradient(top, #aabeca 0%, #ff7900 100%);
-  background: -ms-linear-gradient(top, #aabeca 0%, #ff7900 100%);
-  background: linear-gradient(top, #aabeca 0%, #ff7900 100%); }
+  background: #ff7900;
+  background: -moz-linear-gradient(top, #ff7900 0%, #ffb573 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff7900), color-stop(100%, #ffb573));
+  background: -webkit-linear-gradient(top, #ff7900 0%, #ffb573 100%);
+  background: -o-linear-gradient(top, #ff7900 0%, #ffb573 100%);
+  background: -ms-linear-gradient(top, #ff7900 0%, #ffb573 100%);
+  background: linear-gradient(top, #ff7900 0%, #ffb573 100%); }
 
 h1, h2, h3, h4, h5, h6 {
   color: #4f7b94; }
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     width: auto; }
   #top-panel td > a {
-    background: url("http://justindowning.github.com/apttherapy_80.jpg") 0 0 no-repeat;
+    background: url("http://justin.downing.us/atlogo.png") 0 0 no-repeat;
     display: block;
     height: 85px;
     width: 276px;
