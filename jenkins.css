@@ -1,11 +1,11 @@
 body {
-  background: #ff7900;
-  background: -moz-linear-gradient(top, #ff7900 0%, #ffb573 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff7900), color-stop(100%, #ffb573));
-  background: -webkit-linear-gradient(top, #ff7900 0%, #ffb573 100%);
-  background: -o-linear-gradient(top, #ff7900 0%, #ffb573 100%);
-  background: -ms-linear-gradient(top, #ff7900 0%, #ffb573 100%);
-  background: linear-gradient(top, #ff7900 0%, #ffb573 100%); }
+  background: #ee2737;
+  background: -moz-linear-gradient(top, #ee2737 0%, #f66e55 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee2737), color-stop(100%, #f66e55));
+  background: -webkit-linear-gradient(top, #ee2737 0%, #f66e55 100%);
+  background: -o-linear-gradient(top, #ee2737 0%, #f66e55 100%);
+  background: -ms-linear-gradient(top, #ee2737 0%, #f66e55 100%);
+  background: linear-gradient(top, #ee2737 0%, #f66e55 100%); }
 
 h1, h2, h3, h4, h5, h6 {
   color: #4f7b94; }
