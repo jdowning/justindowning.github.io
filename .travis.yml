@@ -1,0 +1,25 @@
+language: go
+
+env:
+  global:
+    - ENCRYPTION_LABEL: "12ffb1b96b75"
+    - COMMIT_AUTHOR_EMAIL: "justin@downing.us"
+    - SSH_KEY: "id_rsa"
+    - GIT_NAME: "Justin Downing"
+    - GIT_EMAIL: "justin@downing.us"
+    - SOURCE_DIR: "public"
+    - DEPLOY_BRANCH: "source"
+
+before_install:
+  - openssl aes-256-cbc -K $encrypted_12ffb1b96b75_key -iv $encrypted_12ffb1b96b75_iv -in travis-ci.enc -out ~\/.ssh/travis-ci -d
+
+before_script:
+  - go get -u -v github.com/spf13/hugo
+
+script:
+  - git clone https://github.com/fuegowolf/cocoa-eh-hugo-theme.git themes/cocoa-eh
+  - hugo
+
+after_success:
+  - echo "justin.downing.us" > ./public/CNAME
+  - ./scripts/deploy.sh
