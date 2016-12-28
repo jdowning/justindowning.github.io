@@ -22,4 +22,4 @@ script:
 
 after_success:
   - echo "justin.downing.us" > ./public/CNAME
-  - ./scripts/deploy.sh
+  - ./script/deploy.sh
