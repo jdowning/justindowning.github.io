@@ -10,11 +10,11 @@
     <atom:link href="http://justin.downing.us/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>about me</title>
-      <link>http://justin.downing.us/about-me/</link>
+      <title>about</title>
+      <link>http://justin.downing.us/about/</link>
       <pubDate>Tue, 27 Dec 2016 13:34:36 -0500</pubDate>
       
-      <guid>http://justin.downing.us/about-me/</guid>
+      <guid>http://justin.downing.us/about/</guid>
       <description>&lt;p&gt;I am a software engineer on the data team at &lt;a href=&#34;https://heroku.com&#34;&gt;Heroku&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
