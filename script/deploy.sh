@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -e -x
 
 # Deploy built docs to this branch
 TARGET_BRANCH=master
@@ -51,7 +51,7 @@ if [ -n "$TRAVIS_BUILD_ID" ]; then
     fi
   fi
 fi
- 
+
 REPO_NAME=$(basename $REPO)
 TARGET_DIR=$(mktemp -d /tmp/$REPO_NAME.XXXX)
 REV=$(git rev-parse HEAD)
